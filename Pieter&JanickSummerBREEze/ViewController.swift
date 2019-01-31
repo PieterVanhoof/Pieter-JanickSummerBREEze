@@ -8,13 +8,34 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegate {
+    @IBOutlet weak var tableView: UITableView!
+    
+    var updatesList = [Updates]()
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let weather = Updates.init(title: "Weather", content: "The weather forecasts for the festival look great! lot's of rays!")
+        let traffic = Updates.init(title: "Traffic", content: "Heavy traffic from Brussels to Nieuwpoort")
+        let LineUp = Updates.init(title: "line-up change", content: "Due to unforseen circumstances the band Mayham has cancelled and will not be playing the festival")
+        
+        updatesList = [weather, traffic, LineUp]
     }
+        
+        func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+            return updatesList.count
+        }
+        
+        func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+            let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
+            let updates:Updates = updatesList[indexPath.row]
+            
+            cell.textLabel!.text = updates.title
+            cell.textLabel!.text = updates.content
+            
+            return cell
+            
 
-
+}
 }
 

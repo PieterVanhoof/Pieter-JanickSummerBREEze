@@ -12,6 +12,8 @@
 		017A87A022032ACD0087FE93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017A879E22032ACD0087FE93 /* Main.storyboard */; };
 		017A87A222032AD50087FE93 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 017A87A122032AD50087FE93 /* Assets.xcassets */; };
 		017A87A522032AD50087FE93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017A87A322032AD50087FE93 /* LaunchScreen.storyboard */; };
+		017A87AE22032AF40087FE93 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017A87AD22032AF40087FE93 /* MapKit.framework */; };
+		017A87B322033B7F0087FE93 /* Updates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017A87B222033B7F0087FE93 /* Updates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		017A87A122032AD50087FE93 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		017A87A422032AD50087FE93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		017A87A622032AD50087FE93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		017A87AD22032AF40087FE93 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		017A87B222033B7F0087FE93 /* Updates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Updates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				017A87AE22032AF40087FE93 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,7 @@
 			children = (
 				017A879922032ACD0087FE93 /* Pieter&JanickSummerBREEze */,
 				017A879822032ACD0087FE93 /* Products */,
+				017A87AC22032AF30087FE93 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +60,9 @@
 		017A879922032ACD0087FE93 /* Pieter&JanickSummerBREEze */ = {
 			isa = PBXGroup;
 			children = (
+				017A87B122032CA90087FE93 /* ImgFiles */,
+				017A87B022032BCB0087FE93 /* Model */,
+				017A87AF22032BBB0087FE93 /* Controllers */,
 				017A879A22032ACD0087FE93 /* AppDelegate.swift */,
 				017A879C22032ACD0087FE93 /* ViewController.swift */,
 				017A879E22032ACD0087FE93 /* Main.storyboard */,
@@ -62,6 +71,36 @@
 				017A87A622032AD50087FE93 /* Info.plist */,
 			);
 			path = "Pieter&JanickSummerBREEze";
+			sourceTree = "<group>";
+		};
+		017A87AC22032AF30087FE93 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				017A87AD22032AF40087FE93 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		017A87AF22032BBB0087FE93 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		017A87B022032BCB0087FE93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				017A87B222033B7F0087FE93 /* Updates.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		017A87B122032CA90087FE93 /* ImgFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ImgFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +176,7 @@
 			files = (
 				017A879D22032ACD0087FE93 /* ViewController.swift in Sources */,
 				017A879B22032ACD0087FE93 /* AppDelegate.swift in Sources */,
+				017A87B322033B7F0087FE93 /* Updates.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +331,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.Pieter-JanickSummerBREEze";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +348,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "be.ehb.Pieter-JanickSummerBREEze";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
