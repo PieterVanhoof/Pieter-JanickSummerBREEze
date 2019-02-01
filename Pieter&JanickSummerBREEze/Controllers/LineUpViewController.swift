@@ -42,5 +42,14 @@ class LineUpViewController: UIViewController, UITableViewDataSource, UITableView
         
         return cell
     }
+    //segue naar band info page
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destination = segue.destination as! BandInfoViewController
+        let touchedCell = LineUpTableView.indexPathForSelectedRow
+        let band = myDAO.data[touchedCell!.section].bandLijst[touchedCell!.row]
+        
+        destination.sendBand = band
+       
+    }
 
 }

@@ -35,8 +35,6 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
             cell.tfUpdatesContent!.text = updates.content
             
             return cell
-            
-
-}
+        }
 }
 

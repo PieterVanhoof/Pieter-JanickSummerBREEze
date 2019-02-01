@@ -30,6 +30,7 @@
 		01FF054E22045FC2005FAB78 /* BandInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF054D22045FC2005FAB78 /* BandInfoViewController.swift */; };
 		01FF0550220484CA005FAB78 /* LineUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF054F220484CA005FAB78 /* LineUpTableViewCell.swift */; };
 		01FF055222048A5C005FAB78 /* UpdatesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF055122048A5C005FAB78 /* UpdatesTableViewCell.swift */; };
+		01FF05542204974E005FAB78 /* youtubeImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 01FF05532204974D005FAB78 /* youtubeImage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		01FF054D22045FC2005FAB78 /* BandInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandInfoViewController.swift; sourceTree = "<group>"; };
 		01FF054F220484CA005FAB78 /* LineUpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpTableViewCell.swift; sourceTree = "<group>"; };
 		01FF055122048A5C005FAB78 /* UpdatesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesTableViewCell.swift; sourceTree = "<group>"; };
+		01FF05532204974D005FAB78 /* youtubeImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youtubeImage.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 		017A87B122032CA90087FE93 /* ImgFiles */ = {
 			isa = PBXGroup;
 			children = (
+				01FF05532204974D005FAB78 /* youtubeImage.png */,
 				01FF054A2204540B005FAB78 /* LoG.jpg */,
 				01FF05492204540B005FAB78 /* SLAM.jpg */,
 				01FF053D22045232005FAB78 /* alestorm.jpg */,
@@ -214,6 +217,7 @@
 				01FF054522045233005FAB78 /* WD.jpg in Resources */,
 				017A87A522032AD50087FE93 /* LaunchScreen.storyboard in Resources */,
 				01FF054622045233005FAB78 /* Rings.jpg in Resources */,
+				01FF05542204974E005FAB78 /* youtubeImage.png in Resources */,
 				017A87A222032AD50087FE93 /* Assets.xcassets in Resources */,
 				017A87A022032ACD0087FE93 /* Main.storyboard in Resources */,
 				01FF054722045233005FAB78 /* archspire.jpg in Resources */,
