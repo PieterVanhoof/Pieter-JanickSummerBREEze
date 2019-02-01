@@ -15,9 +15,9 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let weather = Updates.init(title: "Weather", content: "The weather forecasts for the festival look great! lot's of rays!")
+        let weather = Updates.init(title: "Weather", content: "The weather forecasts: Lot's of rays!")
         let traffic = Updates.init(title: "Traffic", content: "Heavy traffic from Brussels to Nieuwpoort")
-        let LineUp = Updates.init(title: "line-up change", content: "Due to unforseen circumstances the band Mayham has cancelled and will not be playing the festival")
+        let LineUp = Updates.init(title: "line-up change", content: "Mayham has cancelled")
         
         updatesList = [weather, traffic, LineUp]
     }

@@ -14,6 +14,21 @@
 		017A87A522032AD50087FE93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017A87A322032AD50087FE93 /* LaunchScreen.storyboard */; };
 		017A87AE22032AF40087FE93 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 017A87AD22032AF40087FE93 /* MapKit.framework */; };
 		017A87B322033B7F0087FE93 /* Updates.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017A87B222033B7F0087FE93 /* Updates.swift */; };
+		01FF0524220441CE005FAB78 /* LineUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF0523220441CE005FAB78 /* LineUpViewController.swift */; };
+		01FF0526220443C4005FAB78 /* Band.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF0525220443C4005FAB78 /* Band.swift */; };
+		01FF05282204473D005FAB78 /* DAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF05272204473D005FAB78 /* DAO.swift */; };
+		01FF052A22044A42005FAB78 /* LineUpCategorie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF052922044A42005FAB78 /* LineUpCategorie.swift */; };
+		01FF054222045233005FAB78 /* nekro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01FF053B22045232005FAB78 /* nekro.jpg */; };
+		01FF054322045233005FAB78 /* slayer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01FF053C22045232005FAB78 /* slayer.jpg */; };
+		01FF054422045233005FAB78 /* alestorm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01FF053D22045232005FAB78 /* alestorm.jpg */; };
+		01FF054522045233005FAB78 /* WD.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01FF053E22045232005FAB78 /* WD.jpg */; };
+		01FF054622045233005FAB78 /* Rings.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01FF053F22045233005FAB78 /* Rings.jpg */; };
+		01FF054722045233005FAB78 /* archspire.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01FF054022045233005FAB78 /* archspire.jpg */; };
+		01FF054822045233005FAB78 /* Kraanium.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01FF054122045233005FAB78 /* Kraanium.jpg */; };
+		01FF054B2204540C005FAB78 /* SLAM.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01FF05492204540B005FAB78 /* SLAM.jpg */; };
+		01FF054C2204540C005FAB78 /* LoG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01FF054A2204540B005FAB78 /* LoG.jpg */; };
+		01FF054E22045FC2005FAB78 /* BandInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF054D22045FC2005FAB78 /* BandInfoViewController.swift */; };
+		01FF0550220484CA005FAB78 /* LineUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF054F220484CA005FAB78 /* LineUpTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +41,21 @@
 		017A87A622032AD50087FE93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		017A87AD22032AF40087FE93 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		017A87B222033B7F0087FE93 /* Updates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Updates.swift; sourceTree = "<group>"; };
+		01FF0523220441CE005FAB78 /* LineUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpViewController.swift; sourceTree = "<group>"; };
+		01FF0525220443C4005FAB78 /* Band.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Band.swift; sourceTree = "<group>"; };
+		01FF05272204473D005FAB78 /* DAO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAO.swift; sourceTree = "<group>"; };
+		01FF052922044A42005FAB78 /* LineUpCategorie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpCategorie.swift; sourceTree = "<group>"; };
+		01FF053B22045232005FAB78 /* nekro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nekro.jpg; sourceTree = "<group>"; };
+		01FF053C22045232005FAB78 /* slayer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = slayer.jpg; sourceTree = "<group>"; };
+		01FF053D22045232005FAB78 /* alestorm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = alestorm.jpg; sourceTree = "<group>"; };
+		01FF053E22045232005FAB78 /* WD.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WD.jpg; sourceTree = "<group>"; };
+		01FF053F22045233005FAB78 /* Rings.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rings.jpg; sourceTree = "<group>"; };
+		01FF054022045233005FAB78 /* archspire.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = archspire.jpg; sourceTree = "<group>"; };
+		01FF054122045233005FAB78 /* Kraanium.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Kraanium.jpg; sourceTree = "<group>"; };
+		01FF05492204540B005FAB78 /* SLAM.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = SLAM.jpg; sourceTree = "<group>"; };
+		01FF054A2204540B005FAB78 /* LoG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LoG.jpg; sourceTree = "<group>"; };
+		01FF054D22045FC2005FAB78 /* BandInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandInfoViewController.swift; sourceTree = "<group>"; };
+		01FF054F220484CA005FAB78 /* LineUpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +94,6 @@
 				017A87B022032BCB0087FE93 /* Model */,
 				017A87AF22032BBB0087FE93 /* Controllers */,
 				017A879A22032ACD0087FE93 /* AppDelegate.swift */,
-				017A879C22032ACD0087FE93 /* ViewController.swift */,
 				017A879E22032ACD0087FE93 /* Main.storyboard */,
 				017A87A122032AD50087FE93 /* Assets.xcassets */,
 				017A87A322032AD50087FE93 /* LaunchScreen.storyboard */,
@@ -84,6 +113,9 @@
 		017A87AF22032BBB0087FE93 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				017A879C22032ACD0087FE93 /* ViewController.swift */,
+				01FF0523220441CE005FAB78 /* LineUpViewController.swift */,
+				01FF054D22045FC2005FAB78 /* BandInfoViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -92,6 +124,10 @@
 			isa = PBXGroup;
 			children = (
 				017A87B222033B7F0087FE93 /* Updates.swift */,
+				01FF05272204473D005FAB78 /* DAO.swift */,
+				01FF0525220443C4005FAB78 /* Band.swift */,
+				01FF052922044A42005FAB78 /* LineUpCategorie.swift */,
+				01FF054F220484CA005FAB78 /* LineUpTableViewCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -99,6 +135,15 @@
 		017A87B122032CA90087FE93 /* ImgFiles */ = {
 			isa = PBXGroup;
 			children = (
+				01FF054A2204540B005FAB78 /* LoG.jpg */,
+				01FF05492204540B005FAB78 /* SLAM.jpg */,
+				01FF053D22045232005FAB78 /* alestorm.jpg */,
+				01FF054022045233005FAB78 /* archspire.jpg */,
+				01FF054122045233005FAB78 /* Kraanium.jpg */,
+				01FF053B22045232005FAB78 /* nekro.jpg */,
+				01FF053F22045233005FAB78 /* Rings.jpg */,
+				01FF053C22045232005FAB78 /* slayer.jpg */,
+				01FF053E22045232005FAB78 /* WD.jpg */,
 			);
 			path = ImgFiles;
 			sourceTree = "<group>";
@@ -161,9 +206,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FF054C2204540C005FAB78 /* LoG.jpg in Resources */,
+				01FF054322045233005FAB78 /* slayer.jpg in Resources */,
+				01FF054522045233005FAB78 /* WD.jpg in Resources */,
 				017A87A522032AD50087FE93 /* LaunchScreen.storyboard in Resources */,
+				01FF054622045233005FAB78 /* Rings.jpg in Resources */,
 				017A87A222032AD50087FE93 /* Assets.xcassets in Resources */,
 				017A87A022032ACD0087FE93 /* Main.storyboard in Resources */,
+				01FF054722045233005FAB78 /* archspire.jpg in Resources */,
+				01FF054422045233005FAB78 /* alestorm.jpg in Resources */,
+				01FF054B2204540C005FAB78 /* SLAM.jpg in Resources */,
+				01FF054222045233005FAB78 /* nekro.jpg in Resources */,
+				01FF054822045233005FAB78 /* Kraanium.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -174,9 +228,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01FF05282204473D005FAB78 /* DAO.swift in Sources */,
 				017A879D22032ACD0087FE93 /* ViewController.swift in Sources */,
+				01FF052A22044A42005FAB78 /* LineUpCategorie.swift in Sources */,
+				01FF0550220484CA005FAB78 /* LineUpTableViewCell.swift in Sources */,
+				01FF0524220441CE005FAB78 /* LineUpViewController.swift in Sources */,
+				01FF0526220443C4005FAB78 /* Band.swift in Sources */,
 				017A879B22032ACD0087FE93 /* AppDelegate.swift in Sources */,
 				017A87B322033B7F0087FE93 /* Updates.swift in Sources */,
+				01FF054E22045FC2005FAB78 /* BandInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
