@@ -31,16 +31,16 @@ class LineUpViewController: UIViewController, UITableViewDataSource, UITableView
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell")
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! LineUpTableViewCell
         
         let band:Band = myDAO.data[indexPath.section].bandLijst[indexPath.row]
         
         
-        cell?.textLabel?.text = band.time
-        cell?.textLabel?.text = band.name
-        cell?.imageView?.image = UIImage.init(named: band.img)
+        cell.lblTimeStamps.text = band.time
+        cell.lblBandName.text = band.name
+        cell.imgViewBand.image = UIImage.init(named: band.img)
         
-        return cell!
+        return cell
     }
 
 }

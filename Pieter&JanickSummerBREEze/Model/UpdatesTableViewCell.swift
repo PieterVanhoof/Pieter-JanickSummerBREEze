@@ -1,5 +1,5 @@
 //
-//  LineUpTableViewCell.swift
+//  UpdatesTableViewCell.swift
 //  Pieter&JanickSummerBREEze
 //
 //  Created by mobapp12 on 01/02/2019.
@@ -8,21 +8,19 @@
 
 import UIKit
 
-class LineUpTableViewCell: UITableViewCell {
-    @IBOutlet weak var lblBandName: UILabel!
-    @IBOutlet weak var lblTimeStamps: UILabel!
-    @IBOutlet weak var imgViewBand: UIImageView!
+class UpdatesTableViewCell: UITableViewCell {
+    @IBOutlet weak var lblUpdatesTitel: UILabel!
+    @IBOutlet weak var tfUpdatesContent: UITextView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        
+        // Initialization code
     }
-    
+
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
+     
     }
-    
 
 }

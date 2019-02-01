@@ -17,7 +17,7 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
         
         let weather = Updates.init(title: "Weather", content: "The weather forecasts: Lot's of rays!")
         let traffic = Updates.init(title: "Traffic", content: "Heavy traffic from Brussels to Nieuwpoort")
-        let LineUp = Updates.init(title: "line-up change", content: "Mayham has cancelled")
+        let LineUp = Updates.init(title: "line-up change", content: "Mayham has cancelled due to unforseen circumstances...")
         
         updatesList = [weather, traffic, LineUp]
     }
@@ -27,11 +27,12 @@ class ViewController: UIViewController,UITableViewDataSource, UITableViewDelegat
         }
         
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            let cell = tableView.dequeueReusableCell(withIdentifier: "cell")!
+            let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! UpdatesTableViewCell
+            
             let updates:Updates = updatesList[indexPath.row]
             
-            cell.textLabel!.text = updates.title
-            cell.textLabel!.text = updates.content
+            cell.lblUpdatesTitel!.text = updates.title
+            cell.tfUpdatesContent!.text = updates.content
             
             return cell
             

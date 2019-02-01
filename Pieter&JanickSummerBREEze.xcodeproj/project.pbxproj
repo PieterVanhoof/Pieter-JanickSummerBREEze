@@ -29,6 +29,7 @@
 		01FF054C2204540C005FAB78 /* LoG.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 01FF054A2204540B005FAB78 /* LoG.jpg */; };
 		01FF054E22045FC2005FAB78 /* BandInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF054D22045FC2005FAB78 /* BandInfoViewController.swift */; };
 		01FF0550220484CA005FAB78 /* LineUpTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF054F220484CA005FAB78 /* LineUpTableViewCell.swift */; };
+		01FF055222048A5C005FAB78 /* UpdatesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01FF055122048A5C005FAB78 /* UpdatesTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		01FF054A2204540B005FAB78 /* LoG.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LoG.jpg; sourceTree = "<group>"; };
 		01FF054D22045FC2005FAB78 /* BandInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BandInfoViewController.swift; sourceTree = "<group>"; };
 		01FF054F220484CA005FAB78 /* LineUpTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineUpTableViewCell.swift; sourceTree = "<group>"; };
+		01FF055122048A5C005FAB78 /* UpdatesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatesTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				01FF0525220443C4005FAB78 /* Band.swift */,
 				01FF052922044A42005FAB78 /* LineUpCategorie.swift */,
 				01FF054F220484CA005FAB78 /* LineUpTableViewCell.swift */,
+				01FF055122048A5C005FAB78 /* UpdatesTableViewCell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				01FF0526220443C4005FAB78 /* Band.swift in Sources */,
 				017A879B22032ACD0087FE93 /* AppDelegate.swift in Sources */,
 				017A87B322033B7F0087FE93 /* Updates.swift in Sources */,
+				01FF055222048A5C005FAB78 /* UpdatesTableViewCell.swift in Sources */,
 				01FF054E22045FC2005FAB78 /* BandInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
