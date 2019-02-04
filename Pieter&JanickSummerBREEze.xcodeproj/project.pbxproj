@@ -16,6 +16,7 @@
 		0120807C2208462F00485318 /* BEERresize.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012080772208462E00485318 /* BEERresize.jpg */; };
 		0120807D2208462F00485318 /* WC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012080782208462E00485318 /* WC.jpg */; };
 		0120807F2208523700485318 /* LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 0120807E2208523700485318 /* LOGO.png */; };
+		012080842208555700485318 /* baphomet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012080832208555700485318 /* baphomet.jpg */; };
 		017A879B22032ACD0087FE93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017A879A22032ACD0087FE93 /* AppDelegate.swift */; };
 		017A879D22032ACD0087FE93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017A879C22032ACD0087FE93 /* ViewController.swift */; };
 		017A87A022032ACD0087FE93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017A879E22032ACD0087FE93 /* Main.storyboard */; };
@@ -52,6 +53,7 @@
 		012080772208462E00485318 /* BEERresize.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BEERresize.jpg; path = ../../../../Desktop/pics/pins/BEERresize.jpg; sourceTree = "<group>"; };
 		012080782208462E00485318 /* WC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WC.jpg; path = ../../../../Desktop/pics/pins/WC.jpg; sourceTree = "<group>"; };
 		0120807E2208523700485318 /* LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LOGO.png; path = ../../../../Desktop/pics/LOGO.png; sourceTree = "<group>"; };
+		012080832208555700485318 /* baphomet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = baphomet.jpg; path = ../../../../Desktop/pics/baphomet.jpg; sourceTree = "<group>"; };
 		017A879722032ACD0087FE93 /* Pieter&JanickSummerBREEze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pieter&JanickSummerBREEze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		017A879A22032ACD0087FE93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		017A879C22032ACD0087FE93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -162,6 +164,7 @@
 		017A87B122032CA90087FE93 /* ImgFiles */ = {
 			isa = PBXGroup;
 			children = (
+				012080832208555700485318 /* baphomet.jpg */,
 				0120807E2208523700485318 /* LOGO.png */,
 				012080772208462E00485318 /* BEERresize.jpg */,
 				012080752208462E00485318 /* FOODresize.jpg */,
@@ -255,6 +258,7 @@
 				0120807D2208462F00485318 /* WC.jpg in Resources */,
 				01FF054722045233005FAB78 /* archspire.jpg in Resources */,
 				0120807B2208462F00485318 /* SLAMMER.jpg in Resources */,
+				012080842208555700485318 /* baphomet.jpg in Resources */,
 				01FF054422045233005FAB78 /* alestorm.jpg in Resources */,
 				01FF054B2204540C005FAB78 /* SLAM.jpg in Resources */,
 				01FF054222045233005FAB78 /* nekro.jpg in Resources */,

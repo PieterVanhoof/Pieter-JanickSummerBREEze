@@ -24,7 +24,8 @@ class MapViewController: UIViewController, MKMapViewDelegate,CLLocationManagerDe
         let slamStage = Annotations.init(coordinate: CLLocationCoordinate2D.init(latitude: 51.151504, longitude: 2.720252	), title: "Slamstage", subtitle: "This is were the slamming happens", img: "SLAMMER.jpg")
         let toilet = Annotations.init(coordinate: CLLocationCoordinate2D.init(latitude: 51.152295 , longitude: 2.721786), title: "Toilets", subtitle: "Free toilets", img: "WC.jpg")
         let BeerTasting = Annotations.init(coordinate: CLLocationCoordinate2D.init(latitude: 51.151801, longitude: 2.723279), title: "Beers!", subtitle: "Get your cold ones here!", img: "BEERresize.jpg")
-    pins += [mainStage,slamStage,toilet,BeerTasting]
+        let food = Annotations.init(coordinate:CLLocationCoordinate2D.init(latitude: 51.151958, longitude: 2.722655), title: "Food corner", subtitle: "locally produced foods", img: "FOODresize.jpg")
+        pins += [mainStage,slamStage,toilet,BeerTasting,food]
         mapView.addAnnotations(pins)
         // Do any additional setup after loading the view.
        // let zoomLocation = MKC
