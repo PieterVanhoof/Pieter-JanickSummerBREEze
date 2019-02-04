@@ -55,7 +55,7 @@ class MapViewController: UIViewController, MKMapViewDelegate,CLLocationManagerDe
                 customView.annotation = myAnnotations
                 return customView
             }else{
-                //pin bestond niet dus opbouwen in code
+                //pin opbouwen
                 let customView = MKAnnotationView.init(annotation: myAnnotations, reuseIdentifier: "pin")
                 customView.image = UIImage.init(named: myAnnotations.img!)
                 customView.canShowCallout = true

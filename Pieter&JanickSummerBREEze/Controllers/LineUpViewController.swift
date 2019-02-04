@@ -18,8 +18,18 @@ class LineUpViewController: UIViewController, UITableViewDataSource, UITableView
 
     }
 
-    func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return myDAO.data[section].name
+    
+    // section headers lay-out
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let rect = CGRect.init(x: 0, y: 0, width: 640, height: 25)
+        let view:UITextView = UITextView.init(frame: rect)
+        let font:UIFont = UIFont.init(name: "Helvetica", size: 20)!
+        
+        view.backgroundColor = UIColor.black
+        view.textColor = UIColor.white
+        view.font = font
+        view.text = myDAO.data[section].name
+        return view
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
