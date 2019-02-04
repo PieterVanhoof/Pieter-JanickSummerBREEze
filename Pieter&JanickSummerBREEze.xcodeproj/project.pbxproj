@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0120806D2208308D00485318 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0120806C2208308D00485318 /* CoreLocation.framework */; };
+		0120806F2208310600485318 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0120806E2208310600485318 /* MapViewController.swift */; };
+		012080712208328800485318 /* Annotations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 012080702208328800485318 /* Annotations.swift */; };
+		012080792208462F00485318 /* Stage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012080742208462E00485318 /* Stage.jpg */; };
+		0120807A2208462F00485318 /* FOODresize.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012080752208462E00485318 /* FOODresize.jpg */; };
+		0120807B2208462F00485318 /* SLAMMER.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012080762208462E00485318 /* SLAMMER.jpg */; };
+		0120807C2208462F00485318 /* BEERresize.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012080772208462E00485318 /* BEERresize.jpg */; };
+		0120807D2208462F00485318 /* WC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 012080782208462E00485318 /* WC.jpg */; };
+		0120807F2208523700485318 /* LOGO.png in Resources */ = {isa = PBXBuildFile; fileRef = 0120807E2208523700485318 /* LOGO.png */; };
 		017A879B22032ACD0087FE93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017A879A22032ACD0087FE93 /* AppDelegate.swift */; };
 		017A879D22032ACD0087FE93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 017A879C22032ACD0087FE93 /* ViewController.swift */; };
 		017A87A022032ACD0087FE93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 017A879E22032ACD0087FE93 /* Main.storyboard */; };
@@ -34,6 +43,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0120806C2208308D00485318 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		0120806E2208310600485318 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		012080702208328800485318 /* Annotations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Annotations.swift; sourceTree = "<group>"; };
+		012080742208462E00485318 /* Stage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Stage.jpg; path = ../../../../Desktop/pics/pins/Stage.jpg; sourceTree = "<group>"; };
+		012080752208462E00485318 /* FOODresize.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = FOODresize.jpg; path = ../../../../Desktop/pics/pins/FOODresize.jpg; sourceTree = "<group>"; };
+		012080762208462E00485318 /* SLAMMER.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = SLAMMER.jpg; path = ../../../../Desktop/pics/pins/SLAMMER.jpg; sourceTree = "<group>"; };
+		012080772208462E00485318 /* BEERresize.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = BEERresize.jpg; path = ../../../../Desktop/pics/pins/BEERresize.jpg; sourceTree = "<group>"; };
+		012080782208462E00485318 /* WC.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = WC.jpg; path = ../../../../Desktop/pics/pins/WC.jpg; sourceTree = "<group>"; };
+		0120807E2208523700485318 /* LOGO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LOGO.png; path = ../../../../Desktop/pics/LOGO.png; sourceTree = "<group>"; };
 		017A879722032ACD0087FE93 /* Pieter&JanickSummerBREEze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pieter&JanickSummerBREEze.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		017A879A22032ACD0087FE93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		017A879C22032ACD0087FE93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0120806D2208308D00485318 /* CoreLocation.framework in Frameworks */,
 				017A87AE22032AF40087FE93 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -109,6 +128,7 @@
 		017A87AC22032AF30087FE93 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0120806C2208308D00485318 /* CoreLocation.framework */,
 				017A87AD22032AF40087FE93 /* MapKit.framework */,
 			);
 			name = Frameworks;
@@ -120,6 +140,7 @@
 				017A879C22032ACD0087FE93 /* ViewController.swift */,
 				01FF0523220441CE005FAB78 /* LineUpViewController.swift */,
 				01FF054D22045FC2005FAB78 /* BandInfoViewController.swift */,
+				0120806E2208310600485318 /* MapViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -127,6 +148,7 @@
 		017A87B022032BCB0087FE93 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				012080702208328800485318 /* Annotations.swift */,
 				017A87B222033B7F0087FE93 /* Updates.swift */,
 				01FF05272204473D005FAB78 /* DAO.swift */,
 				01FF0525220443C4005FAB78 /* Band.swift */,
@@ -140,6 +162,12 @@
 		017A87B122032CA90087FE93 /* ImgFiles */ = {
 			isa = PBXGroup;
 			children = (
+				0120807E2208523700485318 /* LOGO.png */,
+				012080772208462E00485318 /* BEERresize.jpg */,
+				012080752208462E00485318 /* FOODresize.jpg */,
+				012080762208462E00485318 /* SLAMMER.jpg */,
+				012080742208462E00485318 /* Stage.jpg */,
+				012080782208462E00485318 /* WC.jpg */,
 				01FF05532204974D005FAB78 /* youtubeImage.png */,
 				01FF054A2204540B005FAB78 /* LoG.jpg */,
 				01FF05492204540B005FAB78 /* SLAM.jpg */,
@@ -217,10 +245,16 @@
 				01FF054522045233005FAB78 /* WD.jpg in Resources */,
 				017A87A522032AD50087FE93 /* LaunchScreen.storyboard in Resources */,
 				01FF054622045233005FAB78 /* Rings.jpg in Resources */,
+				0120807A2208462F00485318 /* FOODresize.jpg in Resources */,
 				01FF05542204974E005FAB78 /* youtubeImage.png in Resources */,
 				017A87A222032AD50087FE93 /* Assets.xcassets in Resources */,
 				017A87A022032ACD0087FE93 /* Main.storyboard in Resources */,
+				012080792208462F00485318 /* Stage.jpg in Resources */,
+				0120807F2208523700485318 /* LOGO.png in Resources */,
+				0120807C2208462F00485318 /* BEERresize.jpg in Resources */,
+				0120807D2208462F00485318 /* WC.jpg in Resources */,
 				01FF054722045233005FAB78 /* archspire.jpg in Resources */,
+				0120807B2208462F00485318 /* SLAMMER.jpg in Resources */,
 				01FF054422045233005FAB78 /* alestorm.jpg in Resources */,
 				01FF054B2204540C005FAB78 /* SLAM.jpg in Resources */,
 				01FF054222045233005FAB78 /* nekro.jpg in Resources */,
@@ -235,7 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0120806F2208310600485318 /* MapViewController.swift in Sources */,
 				01FF05282204473D005FAB78 /* DAO.swift in Sources */,
+				012080712208328800485318 /* Annotations.swift in Sources */,
 				017A879D22032ACD0087FE93 /* ViewController.swift in Sources */,
 				01FF052A22044A42005FAB78 /* LineUpCategorie.swift in Sources */,
 				01FF0550220484CA005FAB78 /* LineUpTableViewCell.swift in Sources */,
