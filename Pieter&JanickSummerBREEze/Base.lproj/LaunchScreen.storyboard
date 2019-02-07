@@ -18,16 +18,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="baphomet.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Epz-hw-nd1">
-                                <rect key="frame" x="52" y="211" width="262" height="343"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LOGO.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Ro-VR-9i4">
+                                <rect key="frame" x="21" y="75" width="333" height="79"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="333" id="Ze3-Jp-zWe"/>
+                                    <constraint firstAttribute="height" constant="79" id="cgb-4Z-Akn"/>
+                                </constraints>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LOGO.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Ro-VR-9i4">
-                                <rect key="frame" x="25" y="91" width="324" height="79"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="baphomet.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Epz-hw-nd1">
+                                <rect key="frame" x="57" y="237" width="261" height="343"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Ro-VR-9i4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="21" id="1zl-tq-2Oy"/>
+                            <constraint firstItem="6Ro-VR-9i4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="55" id="8QN-hs-RFC"/>
+                            <constraint firstItem="Epz-hw-nd1" firstAttribute="top" secondItem="6Ro-VR-9i4" secondAttribute="bottom" constant="83" id="8yg-nI-TcP"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6Ro-VR-9i4" secondAttribute="trailing" constant="21" id="AwO-f8-ggt"/>
+                            <constraint firstItem="Epz-hw-nd1" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="57" id="BPb-gr-8Xy"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Epz-hw-nd1" secondAttribute="trailing" constant="57" id="di8-yY-WVX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Epz-hw-nd1" secondAttribute="bottom" constant="87" id="ogC-CM-KpB"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

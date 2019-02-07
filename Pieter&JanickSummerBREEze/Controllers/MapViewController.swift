@@ -60,6 +60,7 @@ class MapViewController: UIViewController, MKMapViewDelegate,CLLocationManagerDe
                 customView.image = UIImage.init(named: myAnnotations.img!)
                 customView.canShowCallout = true
                 
+                
                 return customView
                 
                 
